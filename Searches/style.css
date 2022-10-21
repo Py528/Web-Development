@@ -1,0 +1,28 @@
+main section a {
+  text-decoration: none;
+}
+
+.heading {
+  text-align: center;
+  color: #edf2f4;
+  background-color: #8d99ae;
+}
+body {
+  background-color: #2b2d42;
+  height: 100%;
+}
+footer {
+  color: #edf2f4;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  opacity: 72%;
+}
+a {
+  color: #edf2f4;
+}
+a:hover {
+  text-decoration: underline;
+}
