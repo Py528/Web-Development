@@ -1,0 +1,40 @@
+:root {
+  --yellow: #f3c348;
+  --unit: 10px;
+  --grey: #354450;
+  --background: #1b2a34;
+  --purple: #c373bd;
+  --blue: #55b6b5;
+  --red: #ea4f5f;
+}
+body {
+  background-color: var(--background);
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.container {
+  width: 500px;
+}
+.rows {
+  height: var(--unit);
+  display: flex;
+  gap: var(--unit);
+}
+.cells {
+  height: 100%;
+  width: calc(var(--size, 2) * var(--unit));
+  background-color: var(--grey);
+  border-radius: 100000000px;
+}
+.size-2{--size: 2;}
+.size-3{--size: 3;}
+.size-4{--size: 4;}
+.size-5{--size: 5;}
+.size-6{--size: 6;}
+.size-7{--size: 7;}
+.size-8{--size: 8;}
+.size-9{--size: 9;}
+.size-10{--size: 10;}
+.size-11{--size: 11;}
+.size-12{--size: 21;}
