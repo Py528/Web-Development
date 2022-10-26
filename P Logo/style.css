@@ -14,7 +14,7 @@ body {
   padding-left: 50px;
 }
 .container {
-  width: 700px;
+  width: 900px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -47,9 +47,11 @@ body {
   border-radius: 100000000px;
 }
 .size-2 {--size: 2;}
-.size-3 {--size: 3.3;}
+.size-3 {--size: 3;}
+.size-33 {--size: 3.3;}
 .size-4 {--size: 4;}
 .size-6 {--size: 6;}
+.size-7 {--size: 7;}
 .size-5 {--size: 5;}
 .size-8 {--size: 8;}
 .size-85 {--size: 8.5;}
@@ -59,6 +61,8 @@ body {
 .size-12 {--size: 12;}
 .size-14 {--size: 14;}
 .size-16 {--size: 16;}
+.size-165 {--size: 16.5;}
+.size-17 {--size: 17;}
 .size-18 {--size: 18;}
 .size-20 {--size: 20;}
 
@@ -78,6 +82,7 @@ body {
 .rows:nth-child(10){--delay: 10; --offset: -50px}
 .rows:nth-child(11){--delay: 11; --offset: 90px}
 .rows:nth-child(12){--delay: 12; --offset: -90px}
+.rows:nth-child(13){--delay: 13; --offset: 190px}
 @keyframes load-row {
     100%{
         translate: 0;
