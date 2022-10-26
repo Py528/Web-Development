@@ -14,11 +14,27 @@ body {
   padding-left: 50px;
 }
 .container {
-  width: 500px;
+  width: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--unit);
+}
+.container:hover::before{
+    opacity: .5;
+    position: absolute;
+    width: 50%;
+    content: "";
+    height: 100%;
+    background: red;
+}
+.container:hover{
+    border: 2px solid white;
 }
 .rows {
+    display: flex;
+    justify-content: center;
   height: var(--unit);
-  display: flex;
   gap: var(--unit);
 }
 .cells {
@@ -28,13 +44,20 @@ body {
   border-radius: 100000000px;
 }
 .size-2{--size: 2;}
-.size-3{--size: 3;}
 .size-4{--size: 4;}
-.size-5{--size: 5;}
 .size-6{--size: 6;}
-.size-7{--size: 7;}
 .size-8{--size: 8;}
-.size-9{--size: 9;}
 .size-10{--size: 10;}
-.size-11{--size: 11;}
-.size-12{--size: 21;}
+.size-12{--size: 12;}
+.size-14{--size: 14;}
+.size-16{--size: 16;}
+.size-18{--size: 18;}
+.size-20{--size: 20;}
+
+
+
+
+.cells.blue{background-color: var(--blue);}
+.cells.red{background-color: var(--red);}
+.cells.purple{background-color: var(--purple);}
+.cells.yellow{background-color: var(--yellow);}
