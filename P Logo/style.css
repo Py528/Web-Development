@@ -21,17 +21,6 @@ body {
   gap: var(--unit);
   overflow: hidden;
 }
-.container:hover::before {
-  opacity: 0.5;
-  position: absolute;
-  width: 50%;
-  content: "";
-  height: 100%;
-  background: red;
-}
-.container:hover {
-  border: 2px solid white;
-}
 .rows {
   display: flex;
   justify-content: center;
