@@ -1,0 +1,26 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+body{
+    background-color: #19242f;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Times New Roman', 'Roboto Mono', sans-serif;
+}
+.hover{
+    background: none;
+    color: #8D9EFF;
+    border: 2px #8D9EFF solid;
+    padding: 1.2em 1.9em;
+    transition: all 300ms, transform 200ms;
+}
+.hover:hover{
+    color: #a28dc8;
+    border-color: #624F82;
+    box-shadow: 2px 4px 20px 2px #16213E;
+    transform: translateY(-3px);
+    cursor:pointer;
+}
